@@ -407,6 +407,6 @@ asmlinkage __visible void *extract_kernel(void *rmode, memptr heap,
 	parse_elf(output);
 	handle_relocations(output, output_len, virt_addr);
 	debug_putstr("done.\nBooting the kernel.\n");
-	debug_putstr("\n###   Rishabh Khanna (UFID: 9188-7481) Living Gator Life  ### \n\n");
+   debug_putstr("\n###   Rishabh Khanna (Exercise 2) ### \n\n");
 	return output;
 }
